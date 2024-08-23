@@ -1,0 +1,89 @@
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.btn {
+  font-family: var(--cohere);
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  white-space: nowrap;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  flex: 1;
+  gap: 2rem;
+  border-radius: 10px;
+  padding: 2.4rem 4rem;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  transition: background-color 0.1s ease-in, color 0.1s ease-in;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
+    -5px -5px 10px rgba(255, 255, 255, 0.3);
+}
+
+.icon2 {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  color: var(--green3);
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  transform: rotate(-45deg);
+  transition: all 0.1s ease-in-out;
+}
+
+.primary {
+  color: var(--green);
+  background-color: var(--green3);
+  border: 1px solid var(--lightBlack);
+}
+.primaryii {
+  color: var(--green3);
+  background-color: var(--black);
+  border: 1px solid var(--lightBlack);
+}
+
+.primaryiii {
+  color: var(--black);
+  background-color: transparent;
+  border: 1px solid var(--lightBlack);
+}
+
+.primaryNav {
+  color: var(--green);
+  background-color: var(--green3);
+  border: 1px solid var(--lightBlack);
+  padding: 5px 30px;
+  font-size: 1.4rem;
+}
+
+.secondary {
+  color: var(--tan);
+  background-color: var(--purple);
+}
+
+.secondaryii {
+  color: #729187;
+  border: 1px solid #729187;
+}
+
+.secondaryNav {
+  color: var(--green);
+  background-color: var(--white);
+  border: 1px solid var(--green);
+  padding: 5px 30px;
+}
+
+.tertiary {
+  color: var(--tan);
+  background-color: var(--green);
+  border: 1px solid var(--tan);
+}

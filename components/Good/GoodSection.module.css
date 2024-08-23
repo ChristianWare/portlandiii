@@ -1,0 +1,247 @@
+.container {
+  background-color: var(--tan);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.falseBtnContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: fit-content;
+  margin-bottom: 2rem;
+  margin-left: auto;
+}
+
+.left {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 3rem;
+}
+
+.processContainer {
+  border: 1px solid var(--lightBlack);
+  border-radius: 10px;
+  padding: 3rem;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.processContainer:nth-child(1) {
+  cursor: default;
+}
+
+.processContainer:nth-child(1):hover {
+  user-select: none;
+  background-color: var(--tan);
+}
+
+.processContainer:hover {
+  background-color: var(--green3);
+}
+
+.processContainer:nth-child(5) {
+  background-color: var(--green3);
+}
+
+.processTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.icon2 {
+  width: 3.5rem;
+  height: 3.5rem;
+  color: var(--black);
+  opacity: 0.7;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.processContainer:hover .icon2 {
+  opacity: 1;
+}
+
+.houseContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.processContainer:nth-child(1),
+.processContainer:nth-child(6) {
+  border: none;
+}
+.processContainer:nth-child(3) {
+  position: relative;
+  right: 1px;
+  top: 1px;
+}
+
+.processContainer:nth-child(4) {
+  position: relative;
+  left: 1px;
+}
+
+.processContainer:nth-child(2) {
+  position: relative;
+  top: 1px;
+}
+
+.processName {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--black);
+  transition: all 0.2s ease-in;
+  font-size: 3rem;
+  opacity: 0.7;
+  font-family: var(--PerfectlyNinetiesItalic);
+}
+
+.processDescription {
+  color: var(--black);
+  opacity: 0.8;
+}
+
+.heading {
+  color: var(--black);
+  line-height: 100% !important;
+  text-align: right;
+  text-align: right;
+  margin-left: auto;
+  text-decoration: underline;
+  /* border-bottom: thick double var(--gray); */
+  /* padding-bottom: 1rem; */
+}
+
+.ampersand {
+  font-family: var(--lb);
+  font-style: italic;
+}
+
+.processContainer:hover .processName,
+.processContainer:hover .processDescription {
+  color: var(--green);
+  opacity: 1;
+}
+
+.ctaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 5rem;
+}
+
+.btnContainer {
+  margin-top: 3rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+@media screen and (max-width: 968px) {
+  .falseBtnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .left {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .processContainer:nth-child(4) {
+    left: 0px;
+  }
+
+  .processContainer:nth-child(3) {
+    left: 1px;
+    top: 0;
+  }
+
+  .processContainer:nth-child(5) {
+    position: relative;
+    left: 1px;
+    bottom: 1px;
+  }
+
+  .heading {
+    width: 100%;
+    text-align: center;
+  }
+
+  .copy {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .left {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    margin-top: 0rem;
+  }
+
+  .heading {
+    margin-bottom: 2rem;
+  }
+
+  .processContainer:nth-child(1),
+  .processContainer:nth-child(6) {
+    display: none;
+  }
+
+  .processContainer:nth-child(2) {
+    top: 2px;
+  }
+
+  .processContainer:nth-child(3) {
+    left: 0px;
+    top: 1px;
+  }
+
+  .processContainer:nth-child(4) {
+    right: 1px;
+    top: 0;
+  }
+
+  .processContainer:nth-child(5) {
+    left: 0px !important;
+    bottom: 1px;
+  }
+
+  .btnContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+
+  .copy {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .processName {
+    font-size: 2rem;
+  }
+}

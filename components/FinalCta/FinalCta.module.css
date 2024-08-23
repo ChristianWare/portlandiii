@@ -1,0 +1,167 @@
+.container {
+  background-color: var(--tan);
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.layoutWrapper {
+  z-index: 1000;
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 3rem;
+  padding-bottom: 0rem;
+}
+
+.contentPadding {
+  padding: 5rem;
+}
+
+.content {
+  padding: 5rem;
+  padding-bottom: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.left,
+.right {
+  width: 100%;
+}
+
+.left {
+  background-color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 3rem;
+}
+
+.leftTop {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.arrow {
+  width: 130px;
+  height: 130px;
+  color: var(--green2);
+  transform: rotate(-45deg);
+  position: relative;
+  top: -20px;
+  right: -20px;
+}
+
+.leftBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  /* height: 100%; */
+}
+
+.heading {
+  font-size: 7rem;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: var(--green2);
+  margin-bottom: 1rem;
+}
+
+.right {
+  padding: 3rem;
+  border: 1px solid gray;
+}
+
+.topText {
+  color: var(--green2);
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 80%;
+  display: block;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .headingii,
+  .topText {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .content {
+    padding: 3rem;
+    padding-top: 4rem;
+  }
+
+  .bottom {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .leftTop {
+    width: 100%;
+  }
+
+  .heading,
+  .headingii,
+  .topText {
+    text-align: center;
+  }
+
+  .topText {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topText {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .layoutWrapper {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .content {
+    padding: 2rem;
+    padding-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .heading {
+    font-size: 6rem;
+  }
+
+  .btnContainer {
+    flex-direction: column;
+  }
+}
