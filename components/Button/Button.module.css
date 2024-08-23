@@ -71,8 +71,9 @@
 }
 
 .secondaryii {
-  color: #729187;
-  border: 1px solid #729187;
+  color: var(--purple);
+  background-color: transparent;
+  border: 1px solid var(--purple);
 }
 
 .secondaryNav {

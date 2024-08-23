@@ -41,6 +41,7 @@
   justify-content: space-between;
   gap: 1rem;
   padding: 3rem;
+  padding-top: 0rem;
 }
 
 .leftTop {
@@ -50,8 +51,8 @@
 }
 
 .arrow {
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   color: var(--green2);
   transform: rotate(-45deg);
   position: relative;
@@ -69,8 +70,8 @@
 
 .heading {
   font-size: 7rem;
+  font-family: var(--PerfectlyNinetiesItalic);
   line-height: 100%;
-  text-transform: uppercase;
   color: var(--green2);
   margin-bottom: 1rem;
 }
@@ -78,6 +79,7 @@
 .right {
   padding: 3rem;
   border: 1px solid gray;
+  border-radius: 20px;
 }
 
 .topText {
@@ -123,6 +125,8 @@
 
   .leftTop {
     width: 100%;
+    align-items: center;
+    justify-content: center;
   }
 
   .heading,

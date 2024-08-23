@@ -27,7 +27,7 @@
   font-size: 3rem;
   font-weight: 500;
   hyphens: none;
-  color: var(--blue);
+  color: var(--black);
   margin-bottom: 2rem;
 }
 
@@ -75,7 +75,7 @@
 .labelInputBox label {
   font-size: 1.4rem;
   font-weight: 600;
-  color: var(--blue);
+  color: var(--black);
   opacity: 0.8;
   padding-left: 0.3rem;
 }
@@ -87,7 +87,7 @@
   width: 100%;
   border: 1px solid gray;
   background-color: var(--tan);
-  color: var(--blue);
+  color: var(--black);
   padding: 1rem;
   width: 100%;
   font-weight: 400;
@@ -118,9 +118,9 @@
   font-family: var(--dashing);
   text-align: center;
   font-size: 1.8rem;
-  color: var(--green2);
-  background-color: var(--blue);
-  border: 1px solid var(--blue);
+  color: var(--tan);
+  background-color: var(--black);
+  border: 1px solid var(--black);
   white-space: nowrap;
   text-transform: uppercase;
   user-select: none;
@@ -130,7 +130,7 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  border-radius: 50px;
+  border-radius: 8px;
   padding: 9px 30px;
   position: relative;
   z-index: 1;
@@ -149,7 +149,7 @@
 .btn:hover,
 .btn:hover .icon {
   background-color: transparent;
-  color: var(--blue);
+  color: var(--black);
 }
 
 @media screen and (max-width: 1100px) {

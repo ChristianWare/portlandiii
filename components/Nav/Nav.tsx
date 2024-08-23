@@ -11,33 +11,25 @@ import Logo from "../Logo/Logo";
 
 const navItems = [
   {
-    text: "Services",
-    href: "/services",
-  },
-  {
-    text: "About Us",
-    href: "/about",
+    text: "About",
+    href: "/#about",
   },
   {
     text: "Projects",
-    href: "/projects",
-  },
-  {
-    text: "Pricing",
-    href: "/pricing",
+    href: "/#projects",
   },
   {
     text: "Faq's",
-    href: "/faqs",
+    href: "/#faqs",
   },
   {
     text: "Blog",
-    href: "/blog",
+    href: "/#blog",
   },
 
   {
     text: "Contact",
-    href: "/contact",
+    href: "/#contact",
   },
 ];
 

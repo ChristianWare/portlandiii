@@ -13,6 +13,7 @@ import Project1 from "../../public/images/elite.png";
 import Project2 from "../../public/images/nier.png";
 import Project3 from "../../public/images/taco.jpg";
 import { projects } from "@/lib/data";
+import Button from "../Button/Button";
 
 const Projects = () => {
   const ecommerceFeatures = [
@@ -79,7 +80,7 @@ const Projects = () => {
   ] as const;
 
   return (
-    <section className={styles.container} id='features'>
+    <section className={styles.container} id='projects'>
       <LayoutWrapper>
         <h2 className={`${styles.heading} h2v2`}>Projects </h2>
         <div className={styles.dataContainer}>
@@ -105,6 +106,10 @@ const Projects = () => {
                       </li>
                     ))}
                   </ul>
+                  <div className={styles.btnContainer}>
+                    <Button text='see github' btnType='secondaryii' href='/' />
+                    <Button text='Live Site' btnType='secondary' href='/' />
+                  </div>
                 </div>
               </div>
             </div>

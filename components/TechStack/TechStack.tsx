@@ -8,9 +8,17 @@ import Node from "../../public/icons/node.svg";
 import Stripe from "../../public/icons/stripe.svg";
 import Vercel from "../../public/icons/vercel.svg";
 import GoogleAnalytics from "../../public/icons/googleAnalytics.svg";
-// import { motion } from "framer-motion";
-// import { fadeIn } from "../../../animation/variants";
-import FalseButton from "../FalseButton/FalseButton";
+import React from "../../public/icons/react.svg";
+import HTML from "../../public/icons/html.svg";
+import CSS from "../../public/icons/icons/css.svg";
+import Javascript from "../../public/icons/javascriptii.svg";
+import MongoDB from "../../public/icons/mongodb.svg";
+import Prisma from "../../public/icons/prisma.svg";
+import Typescript from "../../public/icons/typescriptii.svg";
+import Strapi from "../../public/icons/strapi.svg";
+import Sanity from "../../public/icons/sanity.svg";
+import Contentful from "../../public/icons/contentful.svg";
+import Docker from "../../public/icons/docker.svg";
 
 const TechStack = () => {
   const data = [
@@ -21,43 +29,43 @@ const TechStack = () => {
         "A framework that allows developers to build server-side rendered and statically generated web applications.",
     },
     {
-      icon: <NextJS width={50} height={50} className={styles.icon} />,
+      icon: <React width={50} height={50} className={styles.icon} />,
       name: "React",
       description:
         "A framework that allows developers to build server-side rendered and statically generated web applications.",
     },
     {
-      icon: <NextJS width={50} height={50} className={styles.icon} />,
+      icon: <HTML width={50} height={50} className={styles.icon} />,
       name: "HTML",
       description:
         "A framework that allows developers to build server-side rendered and statically generated web applications.",
     },
     {
-      icon: <NextJS width={50} height={50} className={styles.icon} />,
+      icon: <CSS width={50} height={50} className={styles.icon} />,
       name: "CSS",
       description:
         "A framework that allows developers to build server-side rendered and statically generated web applications.",
     },
     {
-      icon: <NextJS width={50} height={50} className={styles.icon} />,
+      icon: <Javascript width={50} height={50} className={styles.icon} />,
       name: "Javascript",
       description:
         "A framework that allows developers to build server-side rendered and statically generated web applications.",
     },
     {
-      icon: <NextJS width={50} height={50} className={styles.icon} />,
+      icon: <MongoDB width={50} height={50} className={styles.icon} />,
       name: "Mongo DB",
       description:
         "A framework that allows developers to build server-side rendered and statically generated web applications.",
     },
     {
-      icon: <NextJS width={50} height={50} className={styles.icon} />,
+      icon: <Prisma width={50} height={50} className={styles.icon} />,
       name: "Prisma",
       description:
         "A framework that allows developers to build server-side rendered and statically generated web applications.",
     },
     {
-      icon: <NextJS width={50} height={50} className={styles.icon} />,
+      icon: <Typescript width={50} height={50} className={styles.icon} />,
       name: "Typescript",
       description:
         "A framework that allows developers to build server-side rendered and statically generated web applications.",
@@ -93,25 +101,25 @@ const TechStack = () => {
         "Payment processing platform that allows businesses to accept payments online, manage subscriptions, handle invoices, and perform other financial transactions securely and efficiently.",
     },
     {
-      icon: <Stripe width={50} height={50} className={styles.icon} />,
+      icon: <Strapi width={50} height={50} className={styles.icon} />,
       name: "Strapi",
       description:
         "Payment processing platform that allows businesses to accept payments online, manage subscriptions, handle invoices, and perform other financial transactions securely and efficiently.",
     },
     {
-      icon: <Stripe width={50} height={50} className={styles.icon} />,
-      name: "SAnity",
+      icon: <Sanity width={50} height={50} className={styles.icon} />,
+      name: "Sanity",
       description:
         "Payment processing platform that allows businesses to accept payments online, manage subscriptions, handle invoices, and perform other financial transactions securely and efficiently.",
     },
     {
-      icon: <Stripe width={50} height={50} className={styles.icon} />,
+      icon: <Contentful width={50} height={50} className={styles.icon} />,
       name: "Contentful",
       description:
         "Payment processing platform that allows businesses to accept payments online, manage subscriptions, handle invoices, and perform other financial transactions securely and efficiently.",
     },
     {
-      icon: <Stripe width={50} height={50} className={styles.icon} />,
+      icon: <Docker width={50} height={50} className={styles.icon} />,
       name: "Docker",
       description:
         "Payment processing platform that allows businesses to accept payments online, manage subscriptions, handle invoices, and perform other financial transactions securely and efficiently.",

@@ -34,7 +34,7 @@ const Hero = () => {
             <div className={styles.btnContainer}>
               <Button
                 text='View My Work'
-                href='/contact/#schedule'
+                href='/#projects'
                 btnType='primaryii'
               />
               <Button
