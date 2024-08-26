@@ -3,6 +3,7 @@ import BlogSection from "@/components/BlogSection/BlogSection";
 import Faqs from "@/components/Faqs/Faqs";
 import GoodSection from "@/components/Good/GoodSection";
 import Hero from "@/components/Hero/Hero";
+import Process from "@/components/Process/Process";
 import Projects from "@/components/Projects/Projects";
 import TechStack from "@/components/TechStack/TechStack";
 import WorkSection from "@/components/WorkSection/WorkSection";
@@ -27,7 +28,7 @@ async function getData() {
 export const revalidate = 10;
 
 export default async function HomPage() {
-    const data: simpleBlogCard[] = await getData();
+  const data: simpleBlogCard[] = await getData();
 
   return (
     <main>
@@ -35,6 +36,7 @@ export default async function HomPage() {
       <AboutSection />
       <Projects />
       <TechStack />
+      <Process />
       <WorkSection />
       <Faqs />
       <BlogSection data={data} />

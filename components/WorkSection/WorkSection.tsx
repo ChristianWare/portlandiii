@@ -8,6 +8,8 @@ import Hosting from "../../public/icons/cloud.svg";
 import Listing from "../../public/icons/listing.svg";
 import Design from "../../public/icons/design.svg";
 import Clock from "../../public/icons/clock.svg";
+import Resume from "../../public/icons/icons/resume.svg";
+import Button from "../Button/Button";
 
 const WorkSection = () => {
   const data = [
@@ -16,21 +18,21 @@ const WorkSection = () => {
       title: "Freelance Developer",
       company: "Self",
       description:
-        "We use CDN's, or content delivery networks, to speed up the delivery of web content by bringing it closer to where users are.",
+        "Build modern and responsive websites using Next.js, and React. Proficient in designing and implementing custom solutions tailored to client needs, with a focus on delivering high-performance and SEO-friendly web experiences.",
     },
     {
       icon: <Edit width={30} height={30} className={styles.icon} />,
       title: "Contract Web Developer",
       company: "KNI",
       description:
-        "There are no limits to how many edits you can request. If you ever want to make any changes you can call us any time.",
+        "Helped to build and maintain the following websites: https://aspiriant.com/, https://www.bolt.com/, https://www.rippling.com/",
     },
     {
       icon: <Clock width={30} height={30} className={styles.icon} />,
       title: "Contract Software Engineer",
       company: "Joyus App",
       description:
-        "If you ever need to reach out to us for any reason, call us! We're here and ready to help.",
+        "2 month contract to help migrate the front end from Angular and Nest.js to Next.js. Worked with backend developers to integrate their api to the front end.",
     },
     {
       icon: "",
@@ -42,22 +44,29 @@ const WorkSection = () => {
       title: "Software Engineer",
       company: "Mentorworks",
       description:
-        "We design and develop each website we build with pure code to ensure that your website is fast and ranks high on google serch results.",
+        "Maintained current company income share agreement platform with the JavaScript, Node, React, and Python tech stack. Company went out of business.",
     },
     {
       icon: <Listing width={30} height={30} className={styles.icon} />,
       title: "Contract Frontend Developer",
       company: "Fandem",
       description:
-        "A listing on Google appears when potential customers are searching for your business name or a service you offer. We set this up for you.",
+        "Helped to build the following NFT based websites: probablynothing.io, thebattlebunnies.io/, photosynthesis.io/",
     },
     {
-      icon: <Gaii width={30} height={30} className={styles.icon} />,
-      title: "401k Specialist",
-      company: "ADT",
-      description:
-        "We will set up your plausible analytics account so that you dont have to. Focus on your business, and we will take care of the technical stuff.",
+      icon: <Resume width={30} height={30} className={styles.icon} />,
+      title: "Resume",
+      company: "",
+      description: "",
+      btn: "Download My Resume",
     },
+    // {
+    //   icon: <Gaii width={30} height={30} className={styles.icon} />,
+    //   title: "401k Specialist",
+    //   company: "ADT",
+    //   description:
+    //     "We will set up your plausible analytics account so that you dont have to. Focus on your business, and we will take care of the technical stuff.",
+    // },
   ];
 
   return (
@@ -74,8 +83,12 @@ const WorkSection = () => {
               {x.icon && <div className={styles.iconContainer}>{x.icon}</div>}
               <h3 className={styles.title}>{x.title}</h3>
               <h4 className={styles.company}>{x.company}</h4>
-              {/* <h5 className={styles.dates}>January 2020 - Present</h5> */}
               <p className={styles.desc}>{x.description}</p>
+              {x.btn && (
+                <div className={styles.btnContainer}>
+                  <Button href='/' btnType='tertairy' text={x.btn} />
+                </div>
+              )}
             </div>
           ))}
         </div>
