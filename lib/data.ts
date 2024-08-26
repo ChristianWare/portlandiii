@@ -11,86 +11,89 @@ export const projects = [
       "Elite Retreat Rentals is a Phoenix, AZ based company that provides lodging services to travelers at an affordable price. They currently provide lodging for multiple properties in the stat of Arizona. They allow clients to booking directly on their website, instead of relying on platform such as Air bnb and VRBO. The Admin is able to see all the bookings, users, properties, and review on the Admin dashboard.",
     techStack: [
       {
-        title: "On-Page SEO",
+        title: "Next.JS",
       },
       {
-        title: "Keyword Research",
+        title: "CSS Modules",
       },
       {
-        title: "Performance Monitoring",
+        title: "React Hook Form",
       },
       {
-        title: "Link Building",
+        title: "Node Mailer",
       },
     ],
-
     href: "https://golf-guise.vercel.app/",
+    github: "https://github.com/ChristianWare/golf-guise",
   },
   {
     src: Project2,
     title: "Nier Transportaion",
     description:
-      "Elite Retreat Rentals is a Phoenix, AZ based company that provides lodging services to travelers at an affordable price. They currently provide lodging for multiple properties in the stat of Arizona. They allow clients to booking directly on their website, instead of relying on platform such as Air bnb and VRBO. The Admin is able to see all the bookings, users, properties, and review on the Admin dashboard.",
+      "Nier Transportation is a luxury black car driving service based in Phoenix, AZ, specializing in airport transfers, and long distance drives.",
     techStack: [
       {
-        title: "On-Page SEO",
+        title: "Next.JS",
       },
       {
-        title: "Keyword Research",
+        title: "CSS Modules",
       },
       {
-        title: "Performance Monitoring",
+        title: "React Hook Form",
       },
       {
-        title: "Link Building",
+        title: "Node Mailer",
       },
     ],
 
     href: "https://www.niertransportation.com/",
+    github: "https://github.com/ChristianWare/Nier-Transport-Redesign",
   },
   {
     src: Project1,
     title: "Elite Retreat Rentals",
     description:
-      "Elite Retreat Rentals is a Phoenix, AZ based company that provides lodging services to travelers at an affordable price. They currently provide lodging for multiple properties in the stat of Arizona. They allow clients to booking directly on their website, instead of relying on platform such as Air bnb and VRBO. The Admin is able to see all the bookings, users, properties, and review on the Admin dashboard.",
+      "Elite Retreat Rentals is a Phonenix, AZ based company that provides lodging services to travelers at an affordable price.",
     techStack: [
       {
-        title: "On-Page SEO",
+        title: "Next.JS",
       },
       {
-        title: "Keyword Research",
+        title: "Mongo DB",
       },
       {
-        title: "Performance Monitoring",
+        title: "Redux",
       },
       {
-        title: "Link Building",
+        title: "Node Mailer",
       },
     ],
 
     href: "https://www.eliteretreatrentals.com/",
+    github: "https://github.com/ChristianWare/Case-Study-One",
   },
   {
     src: Project3,
     title: "Taco Bell Redegin",
     description:
-      "Elite Retreat Rentals is a Phoenix, AZ based company that provides lodging services to travelers at an affordable price. They currently provide lodging for multiple properties in the stat of Arizona. They allow clients to booking directly on their website, instead of relying on platform such as Air bnb and VRBO. The Admin is able to see all the bookings, users, properties, and review on the Admin dashboard.",
+      "This project is a redesign of Taco Bell's website. The front end was built with next.js, and the CMS is Sanity.io.",
     techStack: [
       {
-        title: "On-Page SEO",
+        title: "Next.JS",
       },
       {
-        title: "Keyword Research",
+        title: "Mongo DB",
       },
       {
-        title: "Performance Monitoring",
+        title: "Redux",
       },
       {
-        title: "Link Building",
+        title: "Stripe",
       },
     ],
 
     href: "https://www.livemas.dev/",
+    github: "https://github.com/ChristianWare/Tacobell-ii",
   },
 ] as const;
 

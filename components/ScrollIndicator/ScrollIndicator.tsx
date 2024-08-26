@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./ScrollIndicator.module.css";
 
 function ScrollIndicator() {
-  const [scrollTop, setScrollTop] = useState(0);
+  const [scrollHeight, setScrollHeight] = useState(0);
 
   const onScroll = () => {
     const winScroll = document.documentElement.scrollTop;
@@ -14,7 +14,7 @@ function ScrollIndicator() {
 
     const scrolled = (winScroll / height) * 100;
 
-    setScrollTop(scrolled);
+    setScrollHeight(scrolled);
   };
 
   useEffect(() => {
@@ -28,7 +28,7 @@ function ScrollIndicator() {
       <div className={styles.progressWrapper}>
         <div
           className={styles.progressMainStyle}
-          style={{ width: `${scrollTop}%` }}
+          style={{ height: `${scrollHeight}%` }}
         ></div>
       </div>
     </div>

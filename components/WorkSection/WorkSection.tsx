@@ -53,8 +53,8 @@ const WorkSection = () => {
     },
     {
       icon: <Gaii width={30} height={30} className={styles.icon} />,
-      title: "Fonts & Footers",
-      company: "Self",
+      title: "401k Specialist",
+      company: "ADT",
       description:
         "We will set up your plausible analytics account so that you dont have to. Focus on your business, and we will take care of the technical stuff.",
     },

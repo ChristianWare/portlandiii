@@ -82,14 +82,13 @@ const Projects = () => {
   return (
     <section className={styles.container} id='projects'>
       <LayoutWrapper>
-        <h2 className={`${styles.heading} h2v2`}>Projects </h2>
+        <h2 className={`${styles.heading} h2v2`}>Projects</h2>
         <div className={styles.dataContainer}>
           {projects.map((x, index) => (
             <div key={index} className={styles.parent}>
               <div className={styles.content}>
                 <div className={styles.left}>
                   <h3 className={styles.titleMobile}>{x.title}</h3>
-                  {/* <div className={styles.iconContainer}>{x.icon}</div> */}
                   <div className={styles.imgContainer}>
                     <Image src={x.src} alt='' fill className={styles.img} />
                   </div>
@@ -107,8 +106,18 @@ const Projects = () => {
                     ))}
                   </ul>
                   <div className={styles.btnContainer}>
-                    <Button text='see github' btnType='secondaryii' href='/' />
-                    <Button text='Live Site' btnType='secondary' href='/' />
+                    <Button
+                      text='see github'
+                      btnType='secondaryii'
+                      href={x.github}
+                      target='_blank'
+                    />
+                    <Button
+                      text='Live Site'
+                      btnType='secondary'
+                      href={x.href}
+                      target='_blank'
+                    />
                   </div>
                 </div>
               </div>

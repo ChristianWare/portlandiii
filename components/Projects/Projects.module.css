@@ -58,15 +58,10 @@
   border-radius: 10px;
 }
 
-.iconContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.right {
   height: 100%;
-}
-
-.icon {
-  color: var(--lightBlack);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .desc {

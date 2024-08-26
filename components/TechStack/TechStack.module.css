@@ -57,7 +57,7 @@
   top: 90px;
 }
 
-.icon {
+.icon, .desc {
   color: var(--tan);
 }
 
