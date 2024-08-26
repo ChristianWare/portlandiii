@@ -1,0 +1,19 @@
+.container p {
+  margin-bottom: 3rem;
+}
+
+.container blockquote {
+  padding-left: 1rem;
+  border-left: 2px solid var(--green);
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+
+.img {
+  object-fit: cover;
+  border-radius: 20px;
+}

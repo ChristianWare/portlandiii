@@ -12,7 +12,7 @@ import { client } from "@/lib/sanity";
 
 async function getData() {
   const query = `
-    *[_type == 'blog'][0...3] | order(_createdAt desc) {
+    *[_type == 'blog'] | order(_createdAt desc) {
       title,
       smallDescription,
       publishedAt,

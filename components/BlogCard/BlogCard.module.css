@@ -25,7 +25,9 @@
   font-size: 2.8rem;
   text-transform: none;
   color: var(--white);
-  font-family: var(--PerfectlyNinetiesItalic);
+  letter-spacing: -0.03em;
+  text-decoration: underline;
+  /* font-family: var(--PerfectlyNinetiesItalic); */
 }
 
 .blogTitle:hover {
@@ -43,19 +45,12 @@
   margin-top: 1rem;
 }
 
-.miscContainer {
-  filter: url("#goo");
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-
 .imgContainer {
   position: relative;
   width: 100%;
   height: 300px;
 }
-
+/* 
 .imgContainer::after {
   content: "";
   position: absolute;
@@ -66,6 +61,11 @@
     rgb(123, 8, 255, 0.2),
     rgb(123, 8, 255, 0.8)
   );
+  border-radius: 10px;
+} */
+
+.img {
+  object-fit: cover;
   border-radius: 10px;
 }
 

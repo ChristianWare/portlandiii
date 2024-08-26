@@ -26,14 +26,16 @@ const BlogSection: React.FC<BlogSectionProps> = ({ data }) => {
                 <BlogCard data={data} key={data.title} />
               ))}
           </div>
-          <div className={styles.btnContainer}>
-            <Button
-              text='Read Our Blog'
-              href='/blog'
-              btnType='primaryii'
-              arrow
-            />
-          </div>
+          {pathname !== "/blog" && (
+            <div className={styles.btnContainer}>
+              <Button
+                text='Read Our Blog'
+                href='/blog'
+                btnType='primaryii'
+                arrow
+              />
+            </div>
+          )}
         </div>
       </LayoutWrapper>
     </section>

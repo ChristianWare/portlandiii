@@ -12,18 +12,15 @@ interface Props {
 const BlogCard = ({ data }: Props) => {
   return (
     <article className={styles.card}>
-      <div className={styles.miscContainer}>
         <div className={styles.imgContainer}>
           <Image
-            src={Img1}
-            // src={urlFor(data.titleImage).url()}
+            src={urlFor(data.titleImage).url()}
             alt=''
             layout='fill'
             objectFit='cover'
             className={styles.img}
           />
         </div>
-      </div>
       <div className={styles.details}>
         <Link href={`/blog/${data?.currentSlug}`} className={styles.link}>
           <h3 className={styles.blogTitle}>{data?.title}</h3>
