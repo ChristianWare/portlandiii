@@ -60,13 +60,6 @@ const WorkSection = () => {
       description: "",
       btn: "Download My Resume",
     },
-    // {
-    //   icon: <Gaii width={30} height={30} className={styles.icon} />,
-    //   title: "401k Specialist",
-    //   company: "ADT",
-    //   description:
-    //     "We will set up your plausible analytics account so that you dont have to. Focus on your business, and we will take care of the technical stuff.",
-    // },
   ];
 
   return (
@@ -86,7 +79,13 @@ const WorkSection = () => {
               <p className={styles.desc}>{x.description}</p>
               {x.btn && (
                 <div className={styles.btnContainer}>
-                  <Button href='/' btnType='tertairy' text={x.btn} />
+                  <Button
+                    btnType='tertairy'
+                    text={x.btn}
+                    href='/Chris_Ware_Resume_2024.pdf'
+                    target='_blank'
+                    download={true}
+                  />
                 </div>
               )}
             </div>
