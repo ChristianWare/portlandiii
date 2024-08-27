@@ -24,14 +24,17 @@ const data = [
   },
 ];
 
-
 const Process = () => {
   return (
     <section className={styles.container}>
       <LayoutWrapper>
         <div className={styles.top}>
           <div className={styles.topLeft}>
-            <h2 className={styles.heading}>My Process </h2>
+            <h2 className={styles.heading}>
+              How I approach
+              <br />
+              <span className={styles.em}>each project</span> :
+            </h2>
           </div>
           <div className={styles.topRight}></div>
         </div>

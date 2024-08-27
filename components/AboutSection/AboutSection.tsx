@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const AboutSection = () => {
   return (
-    <section className={styles.bgColor}>
+    <section className={styles.bgColor} id='about'>
       <LayoutWrapper color='green3'>
         <div className={styles.content}>
           <div className={styles.left}>
@@ -27,12 +27,6 @@ const AboutSection = () => {
               <br />
               <span className={styles.span}> Chris Ware?</span>
             </h2>
-            <p className={styles.text}>
-              Because of my background in design, and finance, I understand the
-              aesthetic and business side to any project. While websites have to
-              make good impressions on their visitors, they should also motivate
-              them to action.
-            </p>
             <br />
             <p className={styles.text}>
               I am skilled in both front-end and back-end development, and I
@@ -45,9 +39,14 @@ const AboutSection = () => {
               all have fast load times and an optimal performance across various
               devices and network conditions.
             </p>
-            {/* <p className={styles.authorDetails}>
-              ~ Chris Ware, Founder & CEO ~
-            </p> */}
+            <br />
+            <p className={styles.text}>
+              Because of my background in design, and finance, I understand the
+              aesthetic and business side to any project. While websites have to
+              make good impressions on their visitors, they should also motivate
+              them to action. This is what I aim to accomplish in all of my
+              projects.
+            </p>
           </div>
         </div>
       </LayoutWrapper>

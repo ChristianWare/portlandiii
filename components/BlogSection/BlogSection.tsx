@@ -29,7 +29,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ data }) => {
           {pathname !== "/blog" && (
             <div className={styles.btnContainer}>
               <Button
-                text='Read Our Blog'
+                text='Read My Blog'
                 href='/blog'
                 btnType='primaryii'
                 arrow

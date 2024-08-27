@@ -25,6 +25,13 @@
   margin-left: auto;
 }
 
+.em {
+  font-family: var(--PerfectlyNinetiesItalic);
+  text-transform: lowercase;
+  line-height: 100%;
+  text-decoration: underline;
+}
+
 .bottom {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

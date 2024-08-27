@@ -1,5 +1,5 @@
 import PageIntro from "@/components/PageIntro/PageIntro";
-import Img from "../../../public/images/house24.png";
+import Img from "../../public/images/house24.png";
 import BlogSection from "@/components/BlogSection/BlogSection";
 import { client } from "@/lib/sanity";
 import { simpleBlogCard } from "@/lib/interface";
@@ -31,7 +31,7 @@ export default async function BlogPage() {
 
   return (
     <>
-      <PageIntro text='Insights from' src={Img} copy='' span='our blog' orientation="center" />
+      <PageIntro text='Insights from' src={Img} copy='' span='My blog' orientation="center" />
       <BlogSection data={data} />
     </>
   );

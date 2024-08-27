@@ -24,7 +24,7 @@ const navItems = [
   },
   {
     text: "Blog",
-    href: "/#blog",
+    href: "/blog",
   },
 
   {

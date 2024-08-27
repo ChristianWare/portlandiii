@@ -50,11 +50,11 @@ const PerfectlyNinetiesItalic = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Fonts & Footers",
-    template: "%s - Fonts & Footers",
+    default: "Chris Ware's Portfolio Website",
+    template: "%s - Chris Ware's Portfolio Website",
   },
   description:
-    "Fonts & Footers empowers business owners with e-commerce stores, business websites, and direct booking platforms. Elevate your online presence with our web development and design expertise!",
+    "Welcome to my portfolio website! Feel free to reach out with further questions if you have any. I am looking forward to speaking with you soon.",
   twitter: {
     card: "summary_large_image",
   },

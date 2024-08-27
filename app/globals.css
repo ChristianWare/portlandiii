@@ -22,7 +22,7 @@
   line-height: 120%;
   font-family: var(--suisseReg);
   scroll-behavior: smooth;
-  scroll-margin-top: 40px;
+  scroll-margin-top: 0px;
   overscroll-behavior: none;
   -webkit-tap-highlight-color: transparent;
 }

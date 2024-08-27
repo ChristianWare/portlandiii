@@ -15,7 +15,7 @@ const Faqs = () => {
   };
 
   return (
-    <section className={styles.container} id='faq'>
+    <section className={styles.container} id='faqs'>
       <LayoutWrapper>
         <div className={styles.content}>
           <div className={styles.top}>
