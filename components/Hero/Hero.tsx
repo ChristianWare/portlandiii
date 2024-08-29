@@ -38,8 +38,10 @@ const Hero = () => {
                 btnType='primaryii'
               />
               <Button
-                text='Get In Touch'
-                href='/services'
+                text='Download My Resume'
+                href='/Chris_Ware_Resume_2024.pdf'
+                target='_blank'
+                download={true}
                 btnType='secondary'
               />
             </div>
