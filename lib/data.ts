@@ -1,9 +1,56 @@
 import Project1 from "../public/images/elite.png";
 import Project2 from "../public/images/nier.png";
-import Project3 from "../public/images/taco.jpg";
+import Project3 from "../public/images/tacolove5.jpg";
 import Project4 from "../public/images/weko.jpg";
 
 export const projects = [
+  {
+    src: Project3,
+    title: "Taco Bell Redegin",
+    description:
+      "This project is a redesign of Taco Bell's website. This is a full stack project similar to 'Elite Retreat Rentals', since it has an admin panel where menu items can be created, updated and deleted. Users can see menu items and reach out via a fully functional contact form.",
+    techStack: [
+      {
+        title: "Next.JS",
+      },
+      {
+        title: "Sanity.io",
+      },
+      {
+        title: "CSS Modules",
+      },
+      {
+        title: "Nodemailer",
+      },
+    ],
+
+    href: "https://www.livemas.dev/",
+    github: "https://github.com/ChristianWare/Tacobell-ii",
+  },
+  {
+    src: Project1,
+    title: "Elite Retreat Rentals",
+    description:
+      "Elite Retreat Rentals is a Phoenix, AZ based company that provides lodging services to travelers at an affordable price. This full stack project was built with an admin panel that allows the owner to create, update and delete properties. Each property listing shows details and images, and gives users the ability to book in advance with a fully functional booking engine. Stripe payment gateway was added, allowing users can pay in advance with any major credit card.",
+
+    techStack: [
+      {
+        title: "Next.JS",
+      },
+      {
+        title: "Mongo DB",
+      },
+      {
+        title: "Redux",
+      },
+      {
+        title: "Stripe",
+      },
+    ],
+
+    href: "https://www.eliteretreatrentals.com/",
+    github: "https://github.com/ChristianWare/Case-Study-One",
+  },
   {
     src: Project4,
     title: "AZ Golf Whisperer",
@@ -48,53 +95,6 @@ export const projects = [
 
     href: "https://www.niertransportation.com/",
     github: "https://github.com/ChristianWare/Nier-Transport-Redesign",
-  },
-  {
-    src: Project1,
-    title: "Elite Retreat Rentals",
-    description:
-      "Elite Retreat Rentals is a Phoenix, AZ based company that provides lodging services to travelers at an affordable price. This full stack project was built with an admin panel that allows the owner to create, update and delete properties. Each property listing shows details and images, and gives users the ability to book in advance with a fully functional booking engine. Stripe payment gateway was added, allowing users can pay in advance with any major credit card.",
-
-    techStack: [
-      {
-        title: "Next.JS",
-      },
-      {
-        title: "Mongo DB",
-      },
-      {
-        title: "Redux",
-      },
-      {
-        title: "Stripe",
-      },
-    ],
-
-    href: "https://www.eliteretreatrentals.com/",
-    github: "https://github.com/ChristianWare/Case-Study-One",
-  },
-  {
-    src: Project3,
-    title: "Taco Bell Redegin",
-    description:
-      "This project is a redesign of Taco Bell's website. This is a full stack project similar to 'Elite Retreat Rentals', since it has an admin panel where menu items can be created, updated and deleted. Users can see menu items and reach out via a fully functional contact form.",
-    techStack: [
-      {
-        title: "Next.JS",
-      },
-      {
-        title: "Mongo DB",
-      },
-      {
-        title: "Redux",
-      },
-      {
-        title: "Nodemailer",
-      },
-    ],
-
-    href: "https://www.livemas.dev/",
-    github: "https://github.com/ChristianWare/Tacobell-ii",
   },
 ] as const;
 
