@@ -1,11 +1,10 @@
 "use client";
 
-import ArrowCluster from "../ArrowCluster/ArrowCluster";
 import LayoutWrapper from "../LayoutWrapper";
 import styles from "./PageIntro.module.css";
 import Image, { StaticImageData } from "next/image";
 import { motion } from "framer-motion";
-import { fadeIn } from "../../../animation/variants";
+// import { fadeIn } from "../../../animation/variants";
 import Button from "../Button/Button";
 
 interface Props {
