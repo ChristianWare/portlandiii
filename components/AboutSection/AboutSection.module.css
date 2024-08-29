@@ -90,19 +90,12 @@
 
   .imgContainer {
     width: 80%;
-    height: 350px;
+    height: 450px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .right {
     order: -1;
-  }
-}
-
-@media screen and (max-width: 568px) {
-  .imgContainer {
-    width: 100%;
-    height: 300px;
   }
 }
