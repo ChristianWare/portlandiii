@@ -6,7 +6,7 @@ import Project4 from "../public/images/weko.jpg";
 export const projects = [
   {
     src: Project3,
-    title: "Taco Bell Redegin",
+    title: "Taco Bell Redesign",
     description:
       "This project is a redesign of Taco Bell's website. This is a full stack project similar to 'Elite Retreat Rentals', since it has an admin panel where menu items can be created, updated and deleted. Users can see menu items and reach out via a fully functional contact form.",
     techStack: [
